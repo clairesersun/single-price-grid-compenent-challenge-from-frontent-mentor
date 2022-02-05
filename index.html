@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta  name="description" content="A single price pop-up grid, sign up for community, created by Claire Sersun for Frontend Mentor's challenge">
     <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
     <title>Single Price Grid</title>
 </head>
 <body>
-   <main>
         <dialog open="open">
-            <section>
+            <section class="white-back">
                 <h1>Join our community</h1>
                 <h2>30-day, hassle-free money back guarantee</h2>
                 <p>Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.</p>
             </section> 
-            <section>
+            <section class="darker-back">
                 <h3>Monthly Subscription</h3>
-                <p><mark>$29</mark> per month</p>
+                <p><mark>$29</mark><span> per month</span></p>
                 <p>Full access for less than $1 a day</p>
                 <button type="button" autofocus>Sign Up</button>
             </section>
-            <section>
-                <ul>Why Us</ul>
+            <section class="cyan-back">
+                <h3 class="list">Why Us</h3>
+                <ul>
                         <li>Tutorials by industry experts</li>
                         <li>Peer & expert code review</li>
                         <li>Coding exercises</li>
@@ -31,9 +36,9 @@
                         <li>Community forum</li>
                         <li>Flashcard decks</li>
                         <li>New videos every week</li>
+                    </ul>
             </section>
         </dialog>
-    </main>
 <footer>
         <p>Challenge by <a href="https://www.frontendmentor.io/home">Frontend Mentor</a>. Coded by <a href="https://www.clairesersun.com/">Claire Sersun</a>.</p>
     </footer>
